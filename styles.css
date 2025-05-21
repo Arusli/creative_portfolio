@@ -1,0 +1,81 @@
+/* Make the entire page a flex container */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100%;
+  color: rgb(48, 47, 47);
+  font-family: sans-serif;
+  background-color: rgb(253, 255, 254);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 95vh;
+  margin-top: 25px;
+}
+
+header, footer, main {
+  /* border: solid 1px green; */
+  width: 80%;
+  max-width: 900px;
+}
+
+/* Let main grow to fill space */
+main {
+  flex: 1;
+  border-top: solid 1px lightgrey;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 19px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 14px;
+  margin-bottom: 8px;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 2px 2px 2px 5px;
+}
+
+p {
+  font-style: italic;
+}
+
+.bio {
+  text-align: center;
+  color: rgb(171, 170, 170);
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+footer {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+footer p {
+  margin: 0px;
+  padding: 0px;
+  color: rgb(171, 170, 170);
+}
+
+span {
+  color: rgb(119, 117, 117);
+}
