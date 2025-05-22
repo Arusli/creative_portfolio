@@ -10,7 +10,7 @@ function changeBackgroundColor() {
 }
 
 // Smooth fade between background colors
-document.body.style.transition = "background-color 10s ease";
+document.body.style.transition = "background-color 15s ease";
 
 // Change every 3 seconds
 setInterval(changeBackgroundColor, 10000);
